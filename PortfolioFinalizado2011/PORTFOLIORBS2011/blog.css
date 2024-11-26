@@ -1,0 +1,73 @@
+/* stylelint-disable @stylistic/selector-list-comma-newline-after */
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+.container .p-4:hover {
+  transform: scale(1.05); /* Faz o elemento crescer 5% */
+  transition: transform 0.3s ease-in-out; /* Suaviza a transição */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adiciona um leve efeito de sombra */
+  z-index: 10; /* Eleva o elemento acima dos outros */
+  position: relative; /* Necessário para o z-index funcionar */
+}
+.list-unstyled a:hover {
+  transform: scale(1.05); /* Faz o item crescer 5% */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Suaviza a transição */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao passar o cursor */
+  z-index: 10; /* Eleva o elemento acima dos outros */
+  position: relative; /* Necessário para o z-index funcionar */
+}
+
+.list-unstyled img:hover {
+  transform: scale(1.1); /* Faz as imagens crescerem um pouco mais */
+  transition: transform 0.3s ease-in-out; /* Suaviza a transição para as imagens */
+}
+.nav a:hover {
+  transform: scale(1.1); /* Aumenta as palavras em 10% */
+  transition: transform 0.2s ease-in-out; /* Suaviza a transição */
+  color: #007bff; /* (Opcional) Altera a cor ao passar o mouse */
+}
+/* Transição suave para links do cabeçalho */
+.container a {
+  transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Efeito ao passar o cursor: aumenta o texto e muda a cor */
+.container a:hover {
+  font-size: 1.1em; /* Aumenta 10% do tamanho do texto */
+  color: #0056b3; /* Opcional: muda a cor para azul escuro */
+}

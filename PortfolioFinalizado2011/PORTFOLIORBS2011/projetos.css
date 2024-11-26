@@ -1,0 +1,90 @@
+body {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 1rem;
+    background-color: #f8f9fa;
+  }
+  .blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+  }
+
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.album {
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+
+.container-title {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+.btn-azul-escuro {
+    background-color: #9481e9;
+    color: #ffffff;}
+
+ .btn-roxo{
+    background-color: #000000;
+    color: #ffffff;
+ }
+
+ .container .p-4:hover {
+    transform: scale(1.05); /* Faz o elemento crescer 5% */
+    transition: transform 0.3s ease-in-out; /* Suaviza a transição */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adiciona um leve efeito de sombra */
+    z-index: 10; /* Eleva o elemento acima dos outros */
+    position: relative; /* Necessário para o z-index funcionar */
+  }
+  .list-unstyled a:hover {
+    transform: scale(1.05); /* Faz o item crescer 5% */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Suaviza a transição */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao passar o cursor */
+    z-index: 10; /* Eleva o elemento acima dos outros */
+    position: relative; /* Necessário para o z-index funcionar */
+  }
+  
+  .list-unstyled img:hover {
+    transform: scale(1.1); /* Faz as imagens crescerem um pouco mais */
+    transition: transform 0.3s ease-in-out; /* Suaviza a transição para as imagens */
+  }
+  .nav a:hover {
+    transform: scale(1.1); /* Aumenta as palavras em 10% */
+    transition: transform 0.2s ease-in-out; /* Suaviza a transição */
+    color: #007bff; /* (Opcional) Altera a cor ao passar o mouse */
+  }
+  /* Transição suave para links do cabeçalho */
+  .container a {
+    transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  /* Efeito ao passar o cursor: aumenta o texto e muda a cor */
+  .container a:hover {
+    font-size: 1.1em; /* Aumenta 10% do tamanho do texto */
+    color: #0056b3; /* Opcional: muda a cor para azul escuro */
+  }
+
